@@ -38,7 +38,7 @@ DATABASES = {
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [BASE_DIR.child('static')]
-django.heroku.settings(locals())
+django_heroku.settings(locals())
 
 
 MEDIA_URL = '/media/'
